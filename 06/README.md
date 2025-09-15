@@ -8,9 +8,9 @@ This project implements an assembler that converts Hack assembly code (`.asm` fi
 
 From Project root (above HackAssembler):
     
-    ```sh
+```sh
     javac HackAssembler/src/*.java HackAssembler/src/parser/*.java HackAssembler/src/code/*.java HackAssembler/src/symboltable/*.java
-    ```
+```
 
 2. **Run the assembler:**
 
