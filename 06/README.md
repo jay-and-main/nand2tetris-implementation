@@ -6,18 +6,17 @@ This project implements an assembler that converts Hack assembly code (`.asm` fi
 
 1. **Compile the Java source files:**
 
-From Project root (above HackAssembler):
     ```
     javac HackAssembler/src/*.java HackAssembler/src/parser/*.java HackAssembler/src/code/*.java HackAssembler/src/symboltable/*.java
     ```
 
-2. **Run the assembler:**
+3. **Run the assembler:**
 
     ```
     java -cp HackAssembler/src HackAssembler <path/to/your/Prog.asm>
     ```
 
-3. **Output:**
+4. **Output:**
     - The assembler will generate a `.hack` file in the same directory as your `.asm` file.
     - For example, `Prog.asm` will produce `Prog.hack`.
 
