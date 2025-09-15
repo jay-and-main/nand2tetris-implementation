@@ -7,14 +7,13 @@ This project implements an assembler that converts Hack assembly code (`.asm` fi
 1. **Compile the Java source files:**
 
 From Project root (above HackAssembler):
-    
-```sh
+    ```
     javac HackAssembler/src/*.java HackAssembler/src/parser/*.java HackAssembler/src/code/*.java HackAssembler/src/symboltable/*.java
-```
+    ```
 
 2. **Run the assembler:**
 
-    ```sh
+    ```
     java -cp HackAssembler/src HackAssembler <path/to/your/Prog.asm>
     ```
 
